@@ -1,0 +1,38 @@
+# Arduino syntax coloring for TemperatureBase
+
+# Datatypes
+TemperatureBase	KEYWORD1
+Status	KEYWORD1
+Reading	KEYWORD1
+State	KEYWORD1
+CalibrationPoint	KEYWORD1
+Callback	KEYWORD1
+
+# Functions
+Begin	KEYWORD2
+Update	KEYWORD2
+GetName	KEYWORD2
+GetState	KEYWORD2
+IsUsable	KEYWORD2
+SetCalibration	KEYWORD2
+ClearCalibration	KEYWORD2
+SetValidInterval	KEYWORD2
+ClearValidInterval	KEYWORD2
+OnUpdate	KEYWORD2
+RemoveUpdateCallback	KEYWORD2
+ClearCallbacks	KEYWORD2
+PublishTemperature	KEYWORD2
+ReportError	KEYWORD2
+Log	KEYWORD2
+
+# Status values
+NoData	LITERAL1
+Ok	LITERAL1
+Disconnected	LITERAL1
+Timeout	LITERAL1
+InvalidReading	LITERAL1
+HardwareError	LITERAL1
+ReadingOutOfRange	LITERAL1
+DeviceSpecificError1	LITERAL1
+DeviceSpecificError2	LITERAL1
+DeviceSpecificError3	LITERAL1
